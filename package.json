@@ -1,0 +1,22 @@
+{
+  "name": "projeto-salvar-nfs",
+  "version": "1.0.0",
+  "description": "Automação que salvará as NFS lançadas no dia. Desenvolvida em javaScript porque eu quis.",
+  "main": "automacao.js",
+  "scripts": {
+    "start": "nodemon automacao.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javaScript",
+    "automação"
+  ],
+  "author": "Jessé Ramos Silva",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^134.0.4",
+    "nodemon": "^3.1.9",
+    "selenium-webdriver": "^4.29.0",
+    "xlsx": "^0.18.5"
+  }
+}
