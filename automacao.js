@@ -30,11 +30,11 @@ console.log(dados);
 
     await driver.findElement(By.xpath(
         "/html/body/app-root/app-login/po-page-login/po-page-background/div/div/div[2]/div/form/div/div[1]/div[1]/po-login/po-field-container/div/div[2]/input"
-        )).sendKeys("bot.contabil");
+        )).sendKeys("**********");
     
     await driver.findElement(By.xpath(
         "/html/body/app-root/app-login/po-page-login/po-page-background/div/div/div[2]/div/form/div/div[2]/div[1]/po-password/po-field-container/div/div[2]/input"
-        )).sendKeys("EQSeng852@");
+        )).sendKeys("********");
     
     await driver.findElement(By.xpath(
         "/html/body/app-root/app-login/po-page-login/po-page-background/div/div/div[2]/div/form/div/po-button/button"
